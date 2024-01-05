@@ -1,0 +1,63 @@
+.topBarLeftItems{
+    display:flex;
+    gap:20px;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+
+}
+
+.showFilterButton{
+    display: none;
+
+    @media (max-width: 500px) {
+        display: flex;
+    }
+}
+
+.leftProductBar{
+    width:25%;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+}
+
+.hideleftProductBar{
+    display:none;
+}
+.rightProductBar {
+    width:75%;
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 18rem);
+
+    @media (max-width: 500px) {
+        width:100%;
+        grid-template-columns: repeat(auto-fit, 10rem);
+    }
+
+}
+
+.rightProductBarFull{
+    width:100%;
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 18rem);
+
+    @media (max-width: 500px) {
+        width:100%;
+        grid-template-columns: repeat(auto-fit, 10rem);
+    }
+}
+
+.productSectionStyle {
+    padding: 0px 75px;
+
+    @media (max-width: 500px) {
+        padding: 0px 8px;
+    }
+}

@@ -1,0 +1,16 @@
+.bottomFooterWrapper{
+    display:flex;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
+}
+
+.sectionStyle {
+    text-align:left;
+    width:33%;
+
+    @media (max-width: 500px) {
+        width:100%;
+    }
+}
